@@ -1,0 +1,405 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Themekit - v1.0.0</title><link rel="stylesheet" href="assets/css/main.css"><link href="http://fonts.googleapis.com/css?family=Open+Sans:400,500,700" rel="stylesheet" type="text/css"><meta name="viewport" content="width=device-width"><meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible"><!-- Open Graph tags --><meta property="og:title" content="Themekit - SassDoc"><meta property="og:type" content="website"><meta property="og:description" content="<p>Starter drupal theme kit.</p>
+"><!-- Thanks to Sass-lang.com for the icons --><link href="assets/images/favicon.png" rel="shortcut icon"></head><body><aside class="sidebar" role="nav"><div class="sidebar__header"><h1 class="sidebar__title">Themekit - 1.0.0</h1></div><div class="sidebar__body"><button type="button" class="btn-toggle js-btn-toggle" data-alt="Open all">Close all</button><p class="sidebar__item sidebar__item--heading" data-slug="flex-grid"><a href="#flex-grid">flex-grid</a></p><div><p class="sidebar__item sidebar__item--sub-heading" data-slug="flex-grid-mixin"><a href="#flex-grid-mixin">mixins</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="flex-grid" data-name="flex-grid-row" data-type="mixin"><a href="#flex-grid-mixin-flex-grid-row">flex-grid-row</a></li><li class="sidebar__item sassdoc__item" data-group="flex-grid" data-name="flex-grid-column" data-type="mixin"><a href="#flex-grid-mixin-flex-grid-column">flex-grid-column</a></li><li class="sidebar__item sassdoc__item" data-group="flex-grid" data-name="flex-grid-layout" data-type="mixin"><a href="#flex-grid-mixin-flex-grid-layout">flex-grid-layout</a></li><li class="sidebar__item sassdoc__item" data-group="flex-grid" data-name="flex-grid-order" data-type="mixin"><a href="#flex-grid-mixin-flex-grid-order">flex-grid-order</a></li><li class="sidebar__item sassdoc__item" data-group="flex-grid" data-name="flex-grid-row-align" data-type="mixin"><a href="#flex-grid-mixin-flex-grid-row-align">flex-grid-row-align</a></li><li class="sidebar__item sassdoc__item" data-group="flex-grid" data-name="flex-grid-column-align" data-type="mixin"><a href="#flex-grid-mixin-flex-grid-column-align">flex-grid-column-align</a></li></ul><p class="sidebar__item sidebar__item--sub-heading" data-slug="flex-grid-function"><a href="#flex-grid-function">functions</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="flex-grid" data-name="flex-grid-column" data-type="function"><a href="#flex-grid-function-flex-grid-column">flex-grid-column</a></li></ul></div><p class="sidebar__item sidebar__item--heading" data-slug="grid"><a href="#grid">grid</a></p><div><p class="sidebar__item sidebar__item--sub-heading" data-slug="grid-mixin"><a href="#grid-mixin">mixins</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="grid" data-name="foundation-grid" data-type="mixin"><a href="#grid-mixin-foundation-grid">foundation-grid</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-column" data-type="mixin"><a href="#grid-mixin-grid-column">grid-column</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-column-row" data-type="mixin"><a href="#grid-mixin-grid-column-row">grid-column-row</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-column-collapse" data-type="mixin"><a href="#grid-mixin-grid-column-collapse">grid-column-collapse</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-column-uncollapse" data-type="mixin"><a href="#grid-mixin-grid-column-uncollapse">grid-column-uncollapse</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-layout" data-type="mixin"><a href="#grid-mixin-grid-layout">grid-layout</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-layout-center-last" data-type="mixin"><a href="#grid-mixin-grid-layout-center-last">grid-layout-center-last</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-column-position" data-type="mixin"><a href="#grid-mixin-grid-column-position">grid-column-position</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-column-unposition" data-type="mixin"><a href="#grid-mixin-grid-column-unposition">grid-column-unposition</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-column-offset" data-type="mixin"><a href="#grid-mixin-grid-column-offset">grid-column-offset</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-column-end" data-type="mixin"><a href="#grid-mixin-grid-column-end">grid-column-end</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-context" data-type="mixin"><a href="#grid-mixin-grid-context">grid-context</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-row" data-type="mixin"><a href="#grid-mixin-grid-row">grid-row</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-row-nest" data-type="mixin"><a href="#grid-mixin-grid-row-nest">grid-row-nest</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-column-size" data-type="mixin"><a href="#grid-mixin-grid-column-size">grid-column-size</a></li></ul><p class="sidebar__item sidebar__item--sub-heading" data-slug="grid-function"><a href="#grid-function">functions</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-column" data-type="function"><a href="#grid-function-grid-column">grid-column</a></li></ul><p class="sidebar__item sidebar__item--sub-heading" data-slug="grid-variable"><a href="#grid-variable">variables</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-row-width" data-type="variable"><a href="#grid-variable-grid-row-width">grid-row-width</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-column-count" data-type="variable"><a href="#grid-variable-grid-column-count">grid-column-count</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-column-gutter" data-type="variable"><a href="#grid-variable-grid-column-gutter">grid-column-gutter</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="grid-column-align-edge" data-type="variable"><a href="#grid-variable-grid-column-align-edge">grid-column-align-edge</a></li><li class="sidebar__item sassdoc__item" data-group="grid" data-name="block-grid-max" data-type="variable"><a href="#grid-variable-block-grid-max">block-grid-max</a></li></ul></div></div></aside><article class="main" role="main"><header class="header" role="banner"><div class="container"><div class="sassdoc__searchbar searchbar"><label for="js-search-input" class="visually-hidden">Search</label><div class="searchbar__form" id="js-search"><input name="search" type="search" class="searchbar__field" autocomplete="off" autofocus id="js-search-input" placeholder="Search"><ul class="searchbar__suggestions" id="js-search-suggestions"></ul></div></div></div></header><section class="main__section"><h1 class="main__heading" id="flex-grid"><div class="container">flex-grid</div></h1><section class="main__sub-section" id="flex-grid-mixin"><h2 class="main__heading--secondary"><div class="container">mixins</div></h2><section class="main__item container item" id="flex-grid-mixin-flex-grid-row"><h3 class="item__heading"><a class="item__name" href="#mixin-flex-grid-row">flex-grid-row</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin flex-grid-row($behavior: null, $width: $grid-row-width, $columns: null, $base: true, $gutter: $grid-column-gutter) { 
+  $margin: auto;
+
+  @if index($behavior, nest) != null {
+    @include grid-row-nest($gutter);
+
+    @if index($behavior, collapse) != null {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  @else {
+    max-width: $width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @if $base {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  @if $columns != null {
+    @include grid-context($columns, $base) {
+      @content;
+    }
+  }
+ }" data-collapsed="@mixin flex-grid-row($behavior: null, $width: $grid-row-width, $columns: null, $base: true, $gutter: $grid-column-gutter) { ... }"><code>@mixin flex-grid-row($behavior: null, $width: $grid-row-width, $columns: null, $base: true, $gutter: $grid-column-gutter) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Creates a container for a flex grid row.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$behavior</code></th><td data-label="desc"><p>Modifications to the default grid styles. <code>nest</code> indicates the row will be placed inside another row. <code>collapse</code> indicates that the columns inside this row will not have padding. <code>nest collapse</code> combines both behaviors.</p></td><td data-label="type"><code>Keyword</code> or <code>List</code></td><td data-label="default"><code>null</code></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$width</code></th><td data-label="desc"><p>Maximum width of the row.</p></td><td data-label="type"><code>Number</code></td><td data-label="default"><code>$grid-row-width</code></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$columns</code></th><td data-label="desc"><p>Number of columns to use for this row. If set to <code>null</code> (the default), the global column count will be used.</p></td><td data-label="type"><code>Number</code></td><td data-label="default"><code>null</code></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$base</code></th><td data-label="desc"><p>Set to <code>false</code> to prevent basic styles from being output. Useful if you&#39;re calling this mixin on the same element twice, as it prevents duplicate CSS output.</p></td><td data-label="type"><code>Boolean</code></td><td data-label="default"><code>true</code></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$gutter</code></th><td data-label="desc"><p>Gutter to use when inverting margins, in case the row is nested.</p></td><td data-label="type"><code>Number</code></td><td data-label="default"><code>$grid-column-gutter</code></td></tr></tbody></table><h3 class="item__sub-heading">Content</h3><p>This mixin allows extra content to be passed (through the <code>@content</code> directive).<h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-row-nest"><code>grid-row-nest</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-context"><code>grid-context</code></a></li></ul></p></section><section class="main__item container item" id="flex-grid-mixin-flex-grid-column"><h3 class="item__heading"><a class="item__name" href="#mixin-flex-grid-column">flex-grid-column</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin flex-grid-column($columns: null, $gutter: $grid-column-gutter) { 
+  // Base properties
+  flex: flex-grid-column($columns);
+
+  // Gutters
+  @if type-of($gutter) == &#39;map&#39; {
+    @each $breakpoint, $value in $gutter {
+      $padding: rem-calc($value) / 2;
+
+      @include breakpoint($breakpoint) {
+        padding-left: $padding;
+        padding-right: $padding;
+      }
+    }
+  }
+  @else if type-of($gutter) == &#39;number&#39; and strip-unit($gutter) &gt; 0 {
+    $padding: rem-calc($gutter) / 2;
+    padding-left: $padding;
+    padding-right: $padding;
+  }
+
+  // fixes recent Chrome version not limiting child width
+  // https://stackoverflow.com/questions/34934586/white-space-nowrap-and-flexbox-did-not-work-in-chrome
+  @if $columns == null {
+    min-width: 0;
+  }
+  // max-width fixes IE 10/11 not respecting the flex-basis property
+  @if $columns != null and $columns != shrink {
+    max-width: grid-column($columns);
+  }
+ }" data-collapsed="@mixin flex-grid-column($columns: null, $gutter: $grid-column-gutter) { ... }"><code>@mixin flex-grid-column($columns: null, $gutter: $grid-column-gutter) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Creates a column for a flex grid. By default, the column will stretch to the full width of its container, but this can be overridden with sizing classes, or by using the <code>unstack</code> class on the parent flex row.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$columns</code></th><td data-label="desc"><p>Width of the column. Refer to the <code>flex-grid-column()</code> function to see possible values.</p></td><td data-label="type"><code>Mixed</code></td><td data-label="default"><code>null</code></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$gutter</code></th><td data-label="desc"><p>Space between columns, added as a left and right padding.</p></td><td data-label="type"><code>Number</code></td><td data-label="default"><code>$grid-column-gutter</code></td></tr></tbody></table><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#flex-grid-function-flex-grid-column"><code>flex-grid-column</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#grid-function-grid-column"><code>grid-column</code></a></li></ul></section><section class="main__item container item" id="flex-grid-mixin-flex-grid-layout"><h3 class="item__heading"><a class="item__name" href="#mixin-flex-grid-layout">flex-grid-layout</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin flex-grid-layout($n, $selector) { 
+  flex-wrap: wrap;
+
+  &gt; #{$selector} {
+    $pct: percentage(1/$n);
+
+    flex: 0 0 $pct;
+    max-width: $pct;
+  }
+ }" data-collapsed="@mixin flex-grid-layout($n, $selector) { ... }"><code>@mixin flex-grid-layout($n, $selector) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Creates a block grid for a flex grid row.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$n</code></th><td data-label="desc"><p>Number of columns to display on each row.</p></td><td data-label="type"><code>Number</code></td><td data-label="default">&mdash;<span class="visually-hidden">none</span></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$selector</code></th><td data-label="desc"><p>Selector to use to target columns within the row.</p></td><td data-label="type"><code>String</code></td><td data-label="default">&mdash;<span class="visually-hidden">none</span></td></tr></tbody></table></section><section class="main__item container item" id="flex-grid-mixin-flex-grid-order"><h3 class="item__heading"><a class="item__name" href="#mixin-flex-grid-order">flex-grid-order</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin flex-grid-order($order: 0) { 
+  @warn &#39;This mixin is being replaced by flex-order(). flex-grid-order() will be removed in Foundation 6.3.&#39;;
+  @include flex-order($order);
+ }" data-collapsed="@mixin flex-grid-order($order: 0) { ... }"><code>@mixin flex-grid-order($order: 0) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Changes the source order of a flex grid column. Columns with lower numbers appear first in the layout.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$order</code></th><td data-label="desc"><p>Order number to apply.</p></td><td data-label="type"><code>Number</code></td><td data-label="default"><code>0</code></td></tr></tbody></table></section><section class="main__item container item" id="flex-grid-mixin-flex-grid-row-align"><h3 class="item__heading"><a class="item__name" href="#mixin-flex-grid-row-align">flex-grid-row-align</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin flex-grid-row-align($x: null, $y: null) { 
+  @warn &#39;This mixin is being replaced by flex-align(). flex-grid-row-align() will be removed in Foundation 6.3.&#39;;
+  @include flex-align($x, $y);
+ }" data-collapsed="@mixin flex-grid-row-align($x: null, $y: null) { ... }"><code>@mixin flex-grid-row-align($x: null, $y: null) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Horizontally or vertically aligns the columns within a flex row. Apply this mixin to a flex row.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$x</code></th><td data-label="desc"><p>Horizontal alignment to use. Can be <code>left</code>, <code>right</code>, <code>center</code>, <code>justify</code>, or <code>spaced</code>. Or, set it to <code>null</code> (the default) to not set horizontal alignment.</p></td><td data-label="type"><code>Keyword</code></td><td data-label="default"><code>null</code></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$y</code></th><td data-label="desc"><p>Vertical alignment to use. Can be <code>top</code>, <code>bottom</code>, <code>middle</code>, or <code>stretch</code>. Or, set it to <code>null</code> (the default) to not set vertical alignment.</p></td><td data-label="type"><code>Keyword</code></td><td data-label="default"><code>null</code></td></tr></tbody></table></section><section class="main__item container item" id="flex-grid-mixin-flex-grid-column-align"><h3 class="item__heading"><a class="item__name" href="#mixin-flex-grid-column-align">flex-grid-column-align</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin flex-grid-column-align($y: null) { 
+  @warn &#39;This mixin is being replaced by flex-align-self(). flex-grid-column-align() will be removed in Foundation 6.3.&#39;;
+  @include flex-align-self($y);
+ }" data-collapsed="@mixin flex-grid-column-align($y: null) { ... }"><code>@mixin flex-grid-column-align($y: null) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Vertically align a single column within a flex row. Apply this mixin to a flex column.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$y</code></th><td data-label="desc"><p>Vertical alignment to use. Can be <code>top</code>, <code>bottom</code>, <code>middle</code>, or <code>stretch</code>. Or, set it to <code>null</code> (the default) to not set vertical alignment.</p></td><td data-label="type"><code>Keyword</code></td><td data-label="default"><code>null</code></td></tr></tbody></table></section></section><section class="main__sub-section" id="flex-grid-function"><h2 class="main__heading--secondary"><div class="container">functions</div></h2><section class="main__item container item" id="flex-grid-function-flex-grid-column"><h3 class="item__heading"><a class="item__name" href="#function-flex-grid-column">flex-grid-column</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function flex-grid-column($columns: null) { 
+  // scss-lint:disable ZeroUnit
+  $flex: 1 1 0px;
+
+  @if $columns == shrink {
+    $flex: 0 0 auto;
+  }
+  @else if $columns != null {
+    $flex: 0 0 grid-column($columns);
+  }
+
+  @return $flex;
+ }" data-collapsed="@function flex-grid-column($columns: null) { ... }"><code>@function flex-grid-column($columns: null) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Calculates the <code>flex</code> property for a flex grid column. It accepts all of the same values as the basic <code>grid-column()</code> function, along with two extras:</p><ul><li><code>null</code> (the default) will make the column expand to fill space.</li><li><code>shrink</code> will make the column contract, so it only takes up the horizontal space it needs.</li></ul></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$columns</code></th><td data-label="desc"><p>Width of the column.</p></td><td data-label="type"><code>Mixed</code></td><td data-label="default"><code>null</code></td></tr></tbody></table><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#grid-function-grid-column"><code>grid-column</code></a></li></ul><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#flex-grid-mixin-flex-grid-column"><code>flex-grid-column</code></a></li></ul></section></section></section><section class="main__section"><h1 class="main__heading" id="grid"><div class="container">grid</div></h1><section class="main__sub-section" id="grid-mixin"><h2 class="main__heading--secondary"><div class="container">mixins</div></h2><section class="main__item container item" id="grid-mixin-foundation-grid"><h3 class="item__heading"><span class="item__access">[private]</span> <a class="item__name" href="#mixin-foundation-grid">foundation-grid</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin foundation-grid() { 
+  // Row
+  .#{$row} {
+    @include grid-row;
+
+    // Collapsing
+    &amp;.#{$collapse} {
+      &gt; .#{$column} {
+        @include grid-col-collapse;
+      }
+    }
+
+    // Nesting
+    &amp; &amp; {
+      @include grid-row-nest($grid-column-gutter);
+
+      &amp;.#{$collapse} {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+
+    // Expanded (full-width) row
+    &amp;.#{$expanded} {
+      max-width: none;
+
+      .#{$row} {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+
+  // Column
+  .#{$column} {
+    @include grid-col;
+
+    @if $grid-column-align-edge {
+      &amp;.#{$end} {
+        @include grid-col-end;
+      }
+    }
+  }
+
+  // Column row
+  // The double .row class is needed to bump up the specificity
+  .#{$column}.#{$row}.#{$row} {
+    float: none;
+
+    // To properly nest a column row, padding and margin is removed
+    .#{$row} &amp; {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  @include -zf-each-breakpoint {
+    @for $i from 1 through $grid-column-count {
+      // Column width
+      .#{$-zf-size}-#{$i} {
+        @include grid-col-size($i);
+      }
+
+      // Source ordering
+      @if $i &lt; $grid-column-count {
+        .#{$-zf-size}-#{$push}-#{$i} {
+          @include grid-col-pos($i);
+        }
+
+        .#{$-zf-size}-#{$pull}-#{$i} {
+          @include grid-col-pos(-$i);
+        }
+      }
+
+      // Offsets
+      $o: $i - 1;
+
+      .#{$-zf-size}-#{$offset}-#{$o} {
+        @include grid-col-off($o);
+      }
+    }
+
+    // Block grid
+    @for $i from 1 through $block-grid-max {
+      .#{$-zf-size}-up-#{$i} {
+        @include grid-layout($i, &quot;.#{$column}&quot;);
+      }
+    }
+
+    // Responsive collapsing
+    .#{$-zf-size}-#{$collapse} {
+      &gt; .#{$column} { @include grid-col-collapse; }
+
+      .#{$row} {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+
+    .#{$-zf-size}-#{$uncollapse} {
+      $gutter: -zf-get-bp-val($grid-column-gutter, $-zf-size);
+
+      &gt; .#{$column} { @include grid-col-uncollapse($gutter); }
+    }
+
+    // Positioning
+    .#{$-zf-size}-#{$center} {
+      @include grid-col-pos(center);
+    }
+
+    // Gutter adjustment
+    .#{$-zf-size}-#{$uncenter},
+    .#{$-zf-size}-#{$push}-0,
+    .#{$-zf-size}-#{$pull}-0 {
+      @include grid-col-unpos;
+    }
+  }
+
+  @if $column == &#39;column&#39; {
+    .columns {
+      // scss-lint:disable PlaceholderInExtend
+      @extend .column;
+    }
+  }
+ }" data-collapsed="@mixin foundation-grid() { ... }"><code>@mixin foundation-grid() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Outputs CSS classes for the grid.</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-row"><code>grid-row</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-row-nest"><code>grid-row-nest</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-layout"><code>grid-layout</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#grid-variable-grid-column-gutter"><code>grid-column-gutter</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#grid-variable-grid-column-align-edge"><code>grid-column-align-edge</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#grid-variable-grid-column-count"><code>grid-column-count</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#grid-variable-block-grid-max"><code>block-grid-max</code></a></li></ul></section><section class="main__item container item" id="grid-mixin-grid-column"><h3 class="item__heading"><a class="item__name" href="#mixin-grid-column">grid-column</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin grid-column($columns: $grid-column-count, $gutter: $grid-column-gutter) { 
+  @include grid-column-size($columns);
+  float: $global-left;
+
+  // Gutters
+  @if type-of($gutter) == &#39;map&#39; {
+    @each $breakpoint, $value in $gutter {
+      $padding: rem-calc($value) / 2;
+
+      @include breakpoint($breakpoint) {
+        padding-left: $padding;
+        padding-right: $padding;
+      }
+    }
+  }
+  @else if type-of($gutter) == &#39;number&#39; and strip-unit($gutter) &gt; 0 {
+    $padding: rem-calc($gutter) / 2;
+    padding-left: $padding;
+    padding-right: $padding;
+  }
+
+  // Last column alignment
+  @if $grid-column-align-edge {
+    &amp;:last-child:not(:first-child) {
+      float: $global-right;
+    }
+  }
+ }" data-collapsed="@mixin grid-column($columns: $grid-column-count, $gutter: $grid-column-gutter) { ... }"><code>@mixin grid-column($columns: $grid-column-count, $gutter: $grid-column-gutter) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Creates a grid column.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$columns</code></th><td data-label="desc"><p>Width of the column. Refer to the <code>grid-column()</code> function to see possible values.</p></td><td data-label="type"><code>Mixed</code></td><td data-label="default"><code>$grid-column-count</code></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$gutter</code></th><td data-label="desc"><p>Spacing between columns.</p></td><td data-label="type"><code>Number</code></td><td data-label="default"><code>$grid-column-gutter</code></td></tr></tbody></table><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-column-size"><code>grid-column-size</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#grid-variable-grid-column-align-edge"><code>grid-column-align-edge</code></a></li></ul><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-column-row"><code>grid-column-row</code></a></li></ul></section><section class="main__item container item" id="grid-mixin-grid-column-row"><h3 class="item__heading"><a class="item__name" href="#mixin-grid-column-row">grid-column-row</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin grid-column-row($gutter: $grid-column-gutter) { 
+  @include grid-row;
+  @include grid-column($gutter: $gutter);
+
+  &amp;,
+  &amp;:last-child {
+    float: none;
+  }
+ }" data-collapsed="@mixin grid-column-row($gutter: $grid-column-gutter) { ... }"><code>@mixin grid-column-row($gutter: $grid-column-gutter) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Creates a grid column row. This is the equivalent of adding <code>.row</code> and <code>.column</code> to the same element.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$gutter</code></th><td data-label="desc"><p>Width of the gutters on either side of the column row.</p></td><td data-label="type"><code>Number</code></td><td data-label="default"><code>$grid-column-gutter</code></td></tr></tbody></table><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-row"><code>grid-row</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-column"><code>grid-column</code></a></li></ul></section><section class="main__item container item" id="grid-mixin-grid-column-collapse"><h3 class="item__heading"><a class="item__name" href="#mixin-grid-column-collapse">grid-column-collapse</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin grid-column-collapse() { 
+  padding-left: 0;
+  padding-right: 0;
+ }" data-collapsed="@mixin grid-column-collapse() { ... }"><code>@mixin grid-column-collapse() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Collapse the gutters on a column by removing the padding. <strong>Note:</strong> only use this mixin within a breakpoint. To collapse a column&#39;s gutters on all screen sizes, use the <code>$gutter</code> parameter of the <code>grid-column()</code> mixin instead.</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p></section><section class="main__item container item" id="grid-mixin-grid-column-uncollapse"><h3 class="item__heading"><a class="item__name" href="#mixin-grid-column-uncollapse">grid-column-uncollapse</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin grid-column-uncollapse($gutter: $grid-column-gutter) { 
+  $gutter: rem-calc($gutter) / 2;
+  padding-left: $gutter;
+  padding-right: $gutter;
+ }" data-collapsed="@mixin grid-column-uncollapse($gutter: $grid-column-gutter) { ... }"><code>@mixin grid-column-uncollapse($gutter: $grid-column-gutter) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Un-collapse the gutters on a column by re-adding the padding.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$gutter</code></th><td data-label="desc"><p>Spacing between columns.</p></td><td data-label="type"><code>Number</code></td><td data-label="default"><code>$grid-column-gutter</code></td></tr></tbody></table></section><section class="main__item container item" id="grid-mixin-grid-layout"><h3 class="item__heading"><a class="item__name" href="#mixin-grid-layout">grid-layout</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin grid-layout($n, $selector: &#39;.column&#39;) { 
+  &amp; &gt; #{$selector} {
+    width: percentage(1/$n);
+    float: $global-left;
+
+    &amp;:nth-of-type(1n) {
+      clear: none;
+    }
+
+    &amp;:nth-of-type(#{$n}n+1) {
+      clear: both;
+    }
+
+    &amp;:last-child {
+      float: left;
+    }
+  }
+ }" data-collapsed="@mixin grid-layout($n, $selector: &#39;.column&#39;) { ... }"><code>@mixin grid-layout($n, $selector: &#39;.column&#39;) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Sizes child elements so that <code>$n</code> number of items appear on each row.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$n</code></th><td data-label="desc"><p>Number of elements to display per row.</p></td><td data-label="type"><code>Number</code></td><td data-label="default">&mdash;<span class="visually-hidden">none</span></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$selector</code></th><td data-label="desc"><p>Selector(s) to use for child elements.</p></td><td data-label="type"><code>String</code></td><td data-label="default"><code>&#39;.column&#39;</code></td></tr></tbody></table><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-foundation-grid"><code>foundation-grid</code></a></li></ul></section><section class="main__item container item" id="grid-mixin-grid-layout-center-last"><h3 class="item__heading"><a class="item__name" href="#mixin-grid-layout-center-last">grid-layout-center-last</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin grid-layout-center-last($n) { 
+  @for $i from 1 to $n {
+    @if $i == 1 {
+      &amp;:nth-child(#{$n}n+1):last-child {
+        margin-left: (100 - 100/$n * $i) / 2 * 1%;
+      }
+    }
+    @else {
+      &amp;:nth-child(#{$n}n+1):nth-last-child(#{$i}) {
+        margin-left: (100 - 100/$n * $i) / 2 * 1%;
+      }
+    }
+  }
+ }" data-collapsed="@mixin grid-layout-center-last($n) { ... }"><code>@mixin grid-layout-center-last($n) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Adds extra CSS to block grid children so the last items in the row center automatically. Apply this to the columns, not the row.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$n</code></th><td data-label="desc"><p>Number of items that appear in each row.</p></td><td data-label="type"><code>Number</code></td><td data-label="default">&mdash;<span class="visually-hidden">none</span></td></tr></tbody></table></section><section class="main__item container item" id="grid-mixin-grid-column-position"><h3 class="item__heading"><a class="item__name" href="#mixin-grid-column-position">grid-column-position</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin grid-column-position($position) { 
+  @if type-of($position) == &#39;number&#39; {
+    $offset: percentage($position / $grid-column-count);
+
+    position: relative;
+    #{$global-left}: $offset;
+  }
+  @else if $position == center {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @else {
+    @warn &#39;Wrong syntax for grid-column-position(). Enter a positive or negative number, or center.&#39;;
+  }
+ }" data-collapsed="@mixin grid-column-position($position) { ... }"><code>@mixin grid-column-position($position) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Reposition a column.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$position</code></th><td data-label="desc"><p>Direction and amount to move. The column will move equal to the width of the column count specified. A positive number will push the column to the right, while a negative number will pull it to the left.</p></td><td data-label="type"><code>Number</code></td><td data-label="default">&mdash;<span class="visually-hidden">none</span></td></tr></tbody></table><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#grid-variable-grid-column-count"><code>grid-column-count</code></a></li></ul></section><section class="main__item container item" id="grid-mixin-grid-column-unposition"><h3 class="item__heading"><a class="item__name" href="#mixin-grid-column-unposition">grid-column-unposition</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin grid-column-unposition() { 
+  position: static;
+  margin-left: 0;
+  margin-right: 0;
+  float: left;
+ }" data-collapsed="@mixin grid-column-unposition() { ... }"><code>@mixin grid-column-unposition() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Reset a position definition.</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p></section><section class="main__item container item" id="grid-mixin-grid-column-offset"><h3 class="item__heading"><a class="item__name" href="#mixin-grid-column-offset">grid-column-offset</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin grid-column-offset($n) { 
+  margin-#{$global-left}: grid-column($n);
+ }" data-collapsed="@mixin grid-column-offset($n) { ... }"><code>@mixin grid-column-offset($n) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Offsets a column to the right by <code>$n</code> columns.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$n</code></th><td data-label="desc"><p>Width to offset by. You can pass in any value accepted by the <code>grid-column()</code> mixin, such as <code>6</code>, <code>50%</code>, or <code>1 of 2</code>.</p></td><td data-label="type"><code>Number</code> or <code>List</code></td><td data-label="default">&mdash;<span class="visually-hidden">none</span></td></tr></tbody></table><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#grid-function-grid-column"><code>grid-column</code></a></li></ul></section><section class="main__item container item" id="grid-mixin-grid-column-end"><h3 class="item__heading"><a class="item__name" href="#mixin-grid-column-end">grid-column-end</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin grid-column-end() { 
+  // This extra specificity is required for the property to be applied
+  &amp;:last-child:last-child {
+    float: $global-left;
+  }
+ }" data-collapsed="@mixin grid-column-end() { ... }"><code>@mixin grid-column-end() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Disable the default behavior of the last column in a row aligning to the opposite edge.</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p></section><section class="main__item container item" id="grid-mixin-grid-context"><h3 class="item__heading"><a class="item__name" href="#mixin-grid-context">grid-context</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin grid-context($columns, $root: false) { 
+  // Store the current column count so it can be re-set later
+  $old-grid-column-count: $grid-column-count;
+  $grid-column-count: $columns !global;
+
+  @if $root {
+    @at-root { @content; }
+  }
+  @else {
+    @content;
+  }
+
+  // Restore the old column count
+  $grid-column-count: $old-grid-column-count;
+ }" data-collapsed="@mixin grid-context($columns, $root: false) { ... }"><code>@mixin grid-context($columns, $root: false) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Change the behavior of columns defined inside this mixin to use a different column count.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$columns</code></th><td data-label="desc"><p>Number of columns to use.</p></td><td data-label="type"><code>Number</code></td><td data-label="default">&mdash;<span class="visually-hidden">none</span></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$root</code></th><td data-label="desc"><p>If <code>false</code>, selectors inside this mixin will nest inside the parent selector. If <code>true</code>, selectors will not nest.</p></td><td data-label="type"><code>Boolean</code></td><td data-label="default"><code>false</code></td></tr></tbody></table><h3 class="item__sub-heading">Content</h3><p>This mixin allows extra content to be passed (through the <code>@content</code> directive).<h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#grid-variable-grid-column-count"><code>grid-column-count</code></a></li></ul><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#flex-grid-mixin-flex-grid-row"><code>flex-grid-row</code></a></li><li><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-row"><code>grid-row</code></a></li></ul></p></section><section class="main__item container item" id="grid-mixin-grid-row"><h3 class="item__heading"><a class="item__name" href="#mixin-grid-row">grid-row</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin grid-row($columns: null, $behavior: null, $width: $grid-row-width, $cf: true, $gutter: $grid-column-gutter) { 
+  $margin: auto;
+
+  @if index($behavior, nest) != null {
+    @include grid-row-nest($gutter);
+
+    @if index($behavior, collapse) != null {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  @else {
+    max-width: $width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @if $cf {
+    @include clearfix;
+  }
+
+  @if $columns != null {
+    @include grid-context($columns) {
+      @content;
+    }
+  }
+ }" data-collapsed="@mixin grid-row($columns: null, $behavior: null, $width: $grid-row-width, $cf: true, $gutter: $grid-column-gutter) { ... }"><code>@mixin grid-row($columns: null, $behavior: null, $width: $grid-row-width, $cf: true, $gutter: $grid-column-gutter) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Creates a grid row.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$columns</code></th><td data-label="desc"><p>Column count for this row. <code>null</code> will use the default column count.</p></td><td data-label="type"><code>Number</code></td><td data-label="default"><code>null</code></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$behavior</code></th><td data-label="desc"><p>Modifications to the default grid styles. <code>nest</code> indicates the row will be placed inside another row. <code>collapse</code> indicates that the columns inside this row will not have padding. <code>nest collapse</code> combines both behaviors.</p></td><td data-label="type"><code>Keywords</code></td><td data-label="default"><code>null</code></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$width</code></th><td data-label="desc"><p>Maximum width of the row.</p></td><td data-label="type"><code>Number</code></td><td data-label="default"><code>$grid-row-width</code></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$cf</code></th><td data-label="desc"><p>Whether or not to include a clearfix.</p></td><td data-label="type"><code>Boolean</code></td><td data-label="default"><code>true</code></td></tr><tr class="item__parameter"><th scope="row" data-label="name"><code>$gutter</code></th><td data-label="desc"><p>Gutter to use when inverting margins, in case the row is nested.</p></td><td data-label="type"><code>Number</code></td><td data-label="default"><code>$grid-column-gutter</code></td></tr></tbody></table><h3 class="item__sub-heading">Content</h3><p>This mixin allows extra content to be passed (through the <code>@content</code> directive).<h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-row-nest"><code>grid-row-nest</code></a></li><li class="item__description item__description--inline"><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-context"><code>grid-context</code></a></li></ul><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-foundation-grid"><code>foundation-grid</code></a></li><li><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-column-row"><code>grid-column-row</code></a></li></ul></p></section><section class="main__item container item" id="grid-mixin-grid-row-nest"><h3 class="item__heading"><a class="item__name" href="#mixin-grid-row-nest">grid-row-nest</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin grid-row-nest($gutter: null) { 
+  @if type-of($gutter) == &#39;number&#39; {
+    $gutter: ($-zf-zero-breakpoint: $gutter);
+  }
+
+  @each $breakpoint, $value in $gutter {
+    $margin: rem-calc($value) / 2 * -1;
+    max-width: none;
+
+    @include breakpoint($breakpoint) {
+      margin-left: $margin;
+      margin-right: $margin;
+    }
+  }
+ }" data-collapsed="@mixin grid-row-nest($gutter: null) { ... }"><code>@mixin grid-row-nest($gutter: null) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Inverts the margins of a row to nest it inside of a column.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$gutter</code></th><td data-label="desc"><p>Gutter value to use when inverting the margins. Set to <code>null</code> to refer to the responsive gutter settings.</p></td><td data-label="type"><code>Map</code> or <code>Null</code></td><td data-label="default"><code>null</code></td></tr></tbody></table><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#flex-grid-mixin-flex-grid-row"><code>flex-grid-row</code></a></li><li><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-foundation-grid"><code>foundation-grid</code></a></li><li><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-row"><code>grid-row</code></a></li></ul></section><section class="main__item container item" id="grid-mixin-grid-column-size"><h3 class="item__heading"><a class="item__name" href="#mixin-grid-column-size">grid-column-size</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin grid-column-size($width: $grid-column-count) { 
+  width: grid-column($columns);
+ }" data-collapsed="@mixin grid-column-size($width: $grid-column-count) { ... }"><code>@mixin grid-column-size($width: $grid-column-count) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Set the width of a grid column.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$width</code></th><td data-label="desc"><p>Width to make the column. You can pass in any value accepted by the <code>grid-column()</code> function, such as <code>6</code>, <code>50%</code>, or <code>1 of 2</code>.</p></td><td data-label="type"><code>Number</code> or <code>List</code></td><td data-label="default"><code>$grid-column-count</code></td></tr></tbody></table><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[function]</span> <a href="#grid-function-grid-column"><code>grid-column</code></a></li></ul><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-column"><code>grid-column</code></a></li></ul></section></section><section class="main__sub-section" id="grid-function"><h2 class="main__heading--secondary"><div class="container">functions</div></h2><section class="main__item container item" id="grid-function-grid-column"><h3 class="item__heading"><a class="item__name" href="#function-grid-column">grid-column</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function grid-column($columns) { 
+  $width: 0%;
+
+  // Parsing percents, decimals, and column counts
+  @if type-of($columns) == &#39;number&#39; {
+    @if unit($columns) == &#39;%&#39; {
+      $width: $columns;
+    }
+    @else if $columns &lt; 1 {
+      $width: percentage($columns);
+    }
+    @else {
+      $width: percentage($columns / $grid-column-count);
+    }
+  }
+
+  // Parsing &quot;n of n&quot; expressions
+  @else if type-of($columns) == &#39;list&#39; {
+    @if length($columns) != 3 {
+      @error &#39;Wrong syntax for grid-column(). Use the format &quot;n of n&quot;.&#39;;
+    }
+    @else {
+      $width: percentage(nth($columns, 1) / nth($columns, 3));
+    }
+  }
+
+  // Anything else is incorrect
+  @else {
+    @error &#39;Wrong syntax for grid-column(). Use a number, decimal, percentage, or &quot;n of n&quot;.&#39;;
+  }
+
+  @return $width;
+ }" data-collapsed="@function grid-column($columns) { ... }"><code>@function grid-column($columns) { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Calculates the width of a column based on a number of factors.</p></div><h3 class="item__sub-heading">Parameters</h3><table class="item__parameters"><thead><tr><th scope="col"><span class="visually-hidden">parameter</span>Name</th><th scope="col"><span class="visually-hidden">parameter</span>Description</th><th scope="col"><span class="visually-hidden">parameter</span>Type</th><th scope="col"><span class="visually-hidden">parameter</span>Default value</th></tr></thead><tbody><tr class="item__parameter"><th scope="row" data-label="name"><code>$columns</code></th><td data-label="desc"><p>Width of the column. Accepts multiple values:</p><ul><li>A percentage value will make the column that exact size.</li><li>A single digit will make the column span that number of columns wide, taking into account the column count of the parent row.</li><li>A string of the format &quot;x of y&quot; will make a column that is <em>x</em> columns wide, assuming <em>y</em> total columns for the parent.</li></ul></td><td data-label="type"><code>Number</code> or <code>List</code></td><td data-label="default">&mdash;<span class="visually-hidden">none</span></td></tr></tbody></table><h3 class="item__sub-heading">Returns</h3><div class="item__description item__description--inline"><code>Number</code> &mdash;<p>A calculated percentage value.</p></div><h3 class="item__sub-heading">Throws</h3><ul class="list-unstyled"><li><p>Wrong syntax for grid-column(). Use the format</p></li><li><p>Wrong syntax for grid-column(). Use a number, decimal, percentage, or</p></li></ul><h3 class="item__sub-heading">Requires</h3><ul class="list-unstyled"><li class="item__description item__description--inline"><span class="item__cross-type">[variable]</span> <a href="#grid-variable-grid-column-count"><code>grid-column-count</code></a></li></ul><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[function]</span> <a href="#flex-grid-function-flex-grid-column"><code>flex-grid-column</code></a></li><li><span class="item__cross-type">[mixin]</span> <a href="#flex-grid-mixin-flex-grid-column"><code>flex-grid-column</code></a></li><li><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-column-offset"><code>grid-column-offset</code></a></li><li><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-column-size"><code>grid-column-size</code></a></li></ul></section></section><section class="main__sub-section" id="grid-variable"><h2 class="main__heading--secondary"><div class="container">variables</div></h2><section class="main__item container item" id="grid-variable-grid-row-width"><h3 class="item__heading"><a class="item__name" href="#variable-grid-row-width">grid-row-width</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$grid-row-width: $global-width !default;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>The maximum width of a row.</p></div><h3 class="item__sub-heading">Type</h3><p><code>Number</code></p></section><section class="main__item container item" id="grid-variable-grid-column-count"><h3 class="item__heading"><a class="item__name" href="#variable-grid-column-count">grid-column-count</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$grid-column-count: 12 !default;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>The default column count of a grid. Changing this value affects the logic of the grid mixins, and the number of CSS classes output.</p></div><h3 class="item__sub-heading">Type</h3><p><code>Number</code></p><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-foundation-grid"><code>foundation-grid</code></a></li><li><span class="item__cross-type">[function]</span> <a href="#grid-function-grid-column"><code>grid-column</code></a></li><li><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-column-position"><code>grid-column-position</code></a></li><li><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-context"><code>grid-context</code></a></li></ul></section><section class="main__item container item" id="grid-variable-grid-column-gutter"><h3 class="item__heading"><a class="item__name" href="#variable-grid-column-gutter">grid-column-gutter</a></h3><span class="item__since">Since 6.1.0</span><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$grid-column-gutter: (
+  small: 20px,
+  medium: 30px,
+) !default;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>The amount of space between columns at different screen sizes. To use just one size, set the variable to a number instead of a map.</p></div><h3 class="item__sub-heading">Type</h3><p><code>Map</code> or <code>Length</code></p><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-foundation-grid"><code>foundation-grid</code></a></li></ul></section><section class="main__item container item" id="grid-variable-grid-column-align-edge"><h3 class="item__heading"><a class="item__name" href="#variable-grid-column-align-edge">grid-column-align-edge</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$grid-column-align-edge: true !default;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>If <code>true</code>, the last column in a row will align to the opposite edge of the row.</p></div><h3 class="item__sub-heading">Type</h3><p><code>Boolean</code></p><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-foundation-grid"><code>foundation-grid</code></a></li><li><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-grid-column"><code>grid-column</code></a></li></ul></section><section class="main__item container item" id="grid-variable-block-grid-max"><h3 class="item__heading"><a class="item__name" href="#variable-block-grid-max">block-grid-max</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$block-grid-max: 8 !default;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>The highest number of <code>.x-up</code> classes available when using the block grid CSS.</p></div><h3 class="item__sub-heading">Type</h3><p><code>Number</code></p><h3 class="item__sub-heading">Used by</h3><ul class="list-unstyled"><li><span class="item__cross-type">[mixin]</span> <a href="#grid-mixin-foundation-grid"><code>foundation-grid</code></a></li></ul></section></section></section><footer class="footer" role="contentinfo"><div class="container"><div class="footer__project-info project-info"><!-- Name and URL --><span class="project-info__name">Themekit</span><!-- Version --> <span class="project-info__version">- v1.0.0</span><!-- License --> <span class="project-info__license">, under ISC</span></div><a class="footer__watermark" href="http://sassdoc.com"><img src="assets/images/logo_light_inline.svg" alt="SassDoc Logo"></a></div></footer></article><script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script><script src="assets/js/main.min.js"></script></body></html>

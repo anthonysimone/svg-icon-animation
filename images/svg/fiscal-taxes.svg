@@ -1,0 +1,14 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" preserveAspectRatio="xMidYMid meet" xml:space="preserve">
+	<g>
+		<path d="M38,0.2H12v49.5H38V0.2z M34.5,46.3h-19V3.7h19V46.3z"/>
+		<g>
+			<path d="M31,17.7v-8c-1.2-0.4-2.1-1.4-2.4-2.6h-7c-0.3,1.3-1.3,2.4-2.7,2.7v7.9c1.6-1.3,3.7-2.1,6-2.1
+				C27.3,15.5,29.4,16.3,31,17.7z"/>
+			<path d="M19,32.4v7.9c1.2,0.4,2.1,1.4,2.4,2.6h7c0.3-1.3,1.3-2.4,2.7-2.7v-7.8c-1.6,1.4-3.7,2.2-6,2.2
+				C22.7,34.5,20.6,33.7,19,32.4z"/>
+		</g>
+		<circle cx="25" cy="25" r="6.1"/>
+	</g>
+	<polygon points="41.4,6.2 41.4,9.7 45.7,10.6 41.4,32 41.4,49.8 49.8,7.9 	"/>
+	<polygon points="8.6,6.2 8.6,9.7 4.3,10.6 8.6,32 8.6,49.8 0.2,7.9 	"/>
+</svg>

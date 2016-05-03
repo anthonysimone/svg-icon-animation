@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 110 120" style="enable-background:new 0 0 110 120;" preserveAspectRatio="xMidYMid meet" xml:space="preserve">
+<g class="icon-bg">
+	<circle fill="none" cx="55" cy="81.2" r="38.8"/>
+</g>
+<g class="icon cta-mountain">
+	<path class="st1" d="M55,37.5L17.5,90.9C21.7,107.6,36.9,120,55,120s33.3-12.4,37.5-29.1L55,37.5z M62.9,68L55,77.9L47.1,68l-16,9.9
+		L55,44l23.9,33.9L62.9,68z"/>
+</g>
+</svg>

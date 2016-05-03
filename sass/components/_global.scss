@@ -1,0 +1,15 @@
+  @include foundation-global-styles;
+  @include foundation-typography;
+  @include foundation-forms;
+
+html {
+	padding: 30px;
+}
+
+.panel {
+	@include callout();
+}
+
+.svg-grid {
+	@include block-grid(4, '.svg-item');
+}

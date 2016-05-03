@@ -1,0 +1,20 @@
+{
+  "name": "blank_slate",
+  "version": "0.1.0",
+  "authors": [
+    "Anthony Simone"
+  ],
+  "description": "Basic empty project with preprocessors and Foundation setup.",
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Snap.svg": "snap.svg#^0.4.1",
+    "gsap": "GreenSock-JS#^1.18.4"
+  }
+}

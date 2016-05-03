@@ -1,0 +1,11 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 110 120" style="enable-background:new 0 0 110 120;" preserveAspectRatio="xMidYMid meet" xml:space="preserve">
+<g class="icon-bg">
+	<circle fill="none" cx="55" cy="79.5" r="38.8"/>
+</g>
+<g class="icon cta-book">
+	<rect x="46.1" y="68" width="24.8" height="11.2"/>
+	<path d="M30.6,109.6l2.5-66.4l-3.9,3.7L27,106.2C28.1,107.4,29.4,108.5,30.6,109.6z"/>
+	<path d="M55,118.2c11.1,0,21.2-4.7,28.3-12.2l-2.5-65.6h-6.1v14.1l-3.7-3l-3.7,3V40.4H36.2l-2.7,71.4
+		C39.7,115.8,47.1,118.2,55,118.2z M42.4,64.3h32.2l0,18.7H42.4L42.4,64.3z"/>
+</g>
+</svg>

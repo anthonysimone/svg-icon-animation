@@ -1,0 +1,85 @@
+svg {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+.icon-bg {
+	circle {
+		fill: #eee;
+		transition: fill 800ms;
+	}
+}
+.snap-icon:hover {
+	.icon-bg {
+		circle {
+			fill: #bbb;
+		}
+	}
+}
+
+.icon {
+	path,
+	rect,
+	circle,
+	polygon {
+		fill: #333;
+	}
+}
+
+
+.snap-icon__badge {
+	&:hover {
+		.cta-badge path {
+
+		}
+	}
+}
+
+.snap-icon__colorado-flag {
+	.colorado-flag {
+		transform: translate3d(1px, 20px, 0);
+		transition: 1500ms;
+	}
+	.stripe,
+	.c,
+	.dot {
+		transition: 1500ms;
+	}
+	&:hover {
+		.colorado-flag {
+			transform: translate3d(0, 0, 0);
+		}
+		.stripe {
+			fill: #0046e2;
+		}
+		.c {
+			fill: #f01538;
+		}
+		.dot {
+			fill: #ffd600;
+		}
+	}
+}
+
+.snap-icon__flag {
+	.flag {
+		transform: translate3d(1px, 20px, 0);
+		transition: 1500ms;
+	}
+	.stars,
+	.stripe {
+		transition: 1500ms;
+	}
+	&:hover {
+		.flag {
+			transform: translate3d(0, 0, 0);
+		}
+		.stars {
+			fill: #3C3B6E;
+		}
+		.stripe {
+			fill: #B22234;
+		}
+	}
+}

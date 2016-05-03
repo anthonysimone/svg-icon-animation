@@ -1,0 +1,15 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 110 120" style="enable-background:new 0 0 110 120;" preserveAspectRatio="xMidYMid meet" xml:space="preserve">
+<g class="icon-bg">
+	<circle fill="none" cx="55" cy="81.2" r="38.8"/>
+</g>
+<g class="icon cta-vote">
+	<path d="M21.2,89.5l7.3,20.1c5.8,5.3,14.8,10.4,26.9,10.4c11.8,0,20.3-4.7,25.9-9.6l7.5-20.9H21.2z"/>
+	<polygon points="79.2,74.8 79.2,82.3 30.8,82.3 30.8,74.7 21,86.1 89,86.1 "/>
+	<g>
+		<polygon points="41.2,45.8 43.6,43.4 46.4,46.3 53,39.6 55.4,42 46.4,51 	"/>
+	</g>
+	<path d="M34.2,32.3v46.5h41.5V32.3H34.2z M51.8,70.8H39.2V58.2h12.6V70.8z M51.8,53H39.2V40.4h10.2l3.6-3.6l5.3,5.3
+		l-6.5,6.5V53z M70.8,70.8h-14v-3.5h14V70.8z M70.8,63.9h-14v-5.7h14V63.9z M70.8,53h-14v-3.5h14V53z M70.8,46.1H57.3l5.7-5.7h7.8
+		V46.1z"/>
+</g>
+</svg>
